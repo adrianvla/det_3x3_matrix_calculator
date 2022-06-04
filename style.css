@@ -1,0 +1,22 @@
+.a{
+    display:flex;
+    flex-direction: row;
+}
+.b{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.el{
+    min-width:15px;
+    min-height:15px;
+    border:1px solid;
+    margin: 10px;
+}
+
+
+.el > input{
+    max-width:20px;
+    border:0;
+}
